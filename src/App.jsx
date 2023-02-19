@@ -24,10 +24,14 @@ import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
     exact: true
   },
   {
-
- 
     path: "/aboutCeo",
     element: <AboutUs/>,
+
+    exact: true
+  },
+  {
+    path: "/certificates",
+    element: <Certificates/>,
 
     exact: true
   }
